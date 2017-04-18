@@ -1,2 +1,2 @@
 mybot_control:mybot_description:mybot_gazebo:mybot_navigation
--DCATKIN_DEVEL_PREFIX=/home/vemula/mybot_ws-master/devel -DCMAKE_INSTALL_PREFIX=/home/vemula/mybot_ws-master/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/vemula/Desktop/mybot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vemula/Desktop/mybot_ws/install -G Unix Makefiles

@@ -7,7 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/vemula/mybot_ws-master/devel:$CMAKE_PREFIX_PATH"
-export PWD="/home/vemula/mybot_ws-master/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/vemula/mybot_ws-master/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/vemula/mybot_ws-master/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/vemula/Desktop/mybot_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/vemula/Desktop/mybot_ws/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/vemula/Desktop/mybot_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/vemula/Desktop/mybot_ws/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/vemula/Desktop/mybot_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/vemula/mybot_ws-master/src:/home/vemula/Desktop/mybot_ws/src:$ROS_PACKAGE_PATH"

@@ -39,7 +39,7 @@
 import rospy
 from sensor_msgs.msg import LaserScan
 import sys
-
+#sys.stdout = open('data', 'w')
 
 
 def callback(data):
@@ -69,9 +69,9 @@ def listener():
 	# name for our 'listener' node so that multiple listeners can
 	# run simultaneously.
 	rospy.init_node('listener', anonymous=True)
-	print 'HIII'
+	#print 'HIII'
 	rospy.Subscriber('/mybot/laser/scan',LaserScan, callback)
-	print 'Hsd'
+	#print 'Hsd'
 	# spin() simply keeps python from exiting until this node is stopped
 	rospy.spin()
 

@@ -1,8 +1,8 @@
-prefix=/home/vemula/mybot_ws-master/devel
+prefix=/home/vemula/Desktop/mybot_ws/devel
 
 Name: mybot_description
 Description: Description of mybot_description
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/vemula/mybot_ws-master/devel/lib 
+Libs: -L/home/vemula/Desktop/mybot_ws/devel/lib 
 Requires: 
