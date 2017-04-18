@@ -1,8 +1,8 @@
-prefix=/home/vemula/Desktop/mybot_ws/install
+prefix=/home/vemula/mybot_ws-master/install
 
 Name: mybot_gazebo
 Description: Description of mybot_gazebo
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/vemula/Desktop/mybot_ws/install/lib 
+Libs: -L/home/vemula/mybot_ws-master/install/lib 
 Requires: 

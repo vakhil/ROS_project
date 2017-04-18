@@ -1,0 +1,8 @@
+prefix=/home/vemula/mybot_ws-master/devel
+
+Name: mybot_navigation
+Description: Description of mybot_navigation
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/vemula/mybot_ws-master/devel/lib 
+Requires: 

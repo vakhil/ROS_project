@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vemula/Desktop/mybot_ws/src
+CMAKE_SOURCE_DIR = /home/vemula/mybot_ws-master/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vemula/Desktop/mybot_ws/build
+CMAKE_BINARY_DIR = /home/vemula/mybot_ws-master/build
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/vemula/Desktop/mybot_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vemula/Desktop/mybot_ws/src /home/vemula/Desktop/mybot_ws/src /home/vemula/Desktop/mybot_ws/build /home/vemula/Desktop/mybot_ws/build /home/vemula/Desktop/mybot_ws/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vemula/mybot_ws-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vemula/mybot_ws-master/src /home/vemula/mybot_ws-master/src /home/vemula/mybot_ws-master/build /home/vemula/mybot_ws-master/build /home/vemula/mybot_ws-master/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

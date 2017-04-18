@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vemula/Desktop/mybot_ws/src
+CMAKE_SOURCE_DIR = /home/vemula/mybot_ws-master/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vemula/Desktop/mybot_ws/build
+CMAKE_BINARY_DIR = /home/vemula/mybot_ws-master/build
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/vemula/Desktop/mybot_ws/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/vemula/Desktop/mybot_ws/build/test_results
+	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/vemula/mybot_ws-master/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/vemula/Desktop/mybot_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vemula/Desktop/mybot_ws/src /home/vemula/Desktop/mybot_ws/src /home/vemula/Desktop/mybot_ws/build /home/vemula/Desktop/mybot_ws/build /home/vemula/Desktop/mybot_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vemula/mybot_ws-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vemula/mybot_ws-master/src /home/vemula/mybot_ws-master/src /home/vemula/mybot_ws-master/build /home/vemula/mybot_ws-master/build /home/vemula/mybot_ws-master/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

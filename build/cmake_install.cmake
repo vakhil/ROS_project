@@ -1,8 +1,8 @@
-# Install script for directory: /home/vemula/Desktop/mybot_ws/src
+# Install script for directory: /home/vemula/mybot_ws-master/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vemula/Desktop/mybot_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/vemula/mybot_ws-master/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,82 +44,83 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/vemula/Desktop/mybot_ws/install/_setup_util.py")
+   "/home/vemula/mybot_ws-master/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/vemula/Desktop/mybot_ws/install" TYPE PROGRAM FILES "/home/vemula/Desktop/mybot_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/vemula/mybot_ws-master/install" TYPE PROGRAM FILES "/home/vemula/mybot_ws-master/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/vemula/Desktop/mybot_ws/install/env.sh")
+   "/home/vemula/mybot_ws-master/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/vemula/Desktop/mybot_ws/install" TYPE PROGRAM FILES "/home/vemula/Desktop/mybot_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/vemula/mybot_ws-master/install" TYPE PROGRAM FILES "/home/vemula/mybot_ws-master/build/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/vemula/Desktop/mybot_ws/install/setup.bash")
+   "/home/vemula/mybot_ws-master/install/setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/vemula/Desktop/mybot_ws/install" TYPE FILE FILES "/home/vemula/Desktop/mybot_ws/build/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/vemula/mybot_ws-master/install" TYPE FILE FILES "/home/vemula/mybot_ws-master/build/catkin_generated/installspace/setup.bash")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/vemula/Desktop/mybot_ws/install/setup.sh")
+   "/home/vemula/mybot_ws-master/install/setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/vemula/Desktop/mybot_ws/install" TYPE FILE FILES "/home/vemula/Desktop/mybot_ws/build/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/vemula/mybot_ws-master/install" TYPE FILE FILES "/home/vemula/mybot_ws-master/build/catkin_generated/installspace/setup.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/vemula/Desktop/mybot_ws/install/setup.zsh")
+   "/home/vemula/mybot_ws-master/install/setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/vemula/Desktop/mybot_ws/install" TYPE FILE FILES "/home/vemula/Desktop/mybot_ws/build/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/vemula/mybot_ws-master/install" TYPE FILE FILES "/home/vemula/mybot_ws-master/build/catkin_generated/installspace/setup.zsh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/vemula/Desktop/mybot_ws/install/.rosinstall")
+   "/home/vemula/mybot_ws-master/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/vemula/Desktop/mybot_ws/install" TYPE FILE FILES "/home/vemula/Desktop/mybot_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/vemula/mybot_ws-master/install" TYPE FILE FILES "/home/vemula/mybot_ws-master/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/vemula/Desktop/mybot_ws/build/gtest/cmake_install.cmake")
-  include("/home/vemula/Desktop/mybot_ws/build/mybot_control/cmake_install.cmake")
-  include("/home/vemula/Desktop/mybot_ws/build/mybot_description/cmake_install.cmake")
-  include("/home/vemula/Desktop/mybot_ws/build/mybot_gazebo/cmake_install.cmake")
+  include("/home/vemula/mybot_ws-master/build/gtest/cmake_install.cmake")
+  include("/home/vemula/mybot_ws-master/build/mybot_control/cmake_install.cmake")
+  include("/home/vemula/mybot_ws-master/build/mybot_description/cmake_install.cmake")
+  include("/home/vemula/mybot_ws-master/build/mybot_gazebo/cmake_install.cmake")
+  include("/home/vemula/mybot_ws-master/build/mybot_navigation/cmake_install.cmake")
 
 endif()
 
@@ -131,5 +132,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vemula/Desktop/mybot_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vemula/mybot_ws-master/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
