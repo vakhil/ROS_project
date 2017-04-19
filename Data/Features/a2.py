@@ -42,15 +42,16 @@ def a2_4(points_xy,n):
 	return math.sqrt(sum1/(n-1))
 
 def a2_5(points_xy,n):
+	nf = 3
 	T = a2_2(points_xy,n)
 	v_cp = np.zeros((n,1),dtype=np.complex)
 	delv = np.zeros((n,1),dtype=np.complex)
 	normv = np.zeros((n,1),dtype=np.float)
 	ph = np.zeros((n,1),dtype=np.float)
 	dels = np.zeros((n,1),dtype=np.complex)
-	c = np.zeros((201,1),dtype=np.complex)
+	c = np.zeros((nf,1),dtype=np.complex)
 	t = np.zeros((n,1),dtype=np.float)
-	x = np.zeros((201,1),dtype=np.complex)
+	x = np.zeros((nf,1),dtype=np.complex)
 	b = 1+1j
 	for i in range(0,n):
 		v_cp[i] = points_xy[i][0] + 1j*points_xy[i][1]
@@ -67,29 +68,29 @@ def a2_5(points_xy,n):
 				t[i] += normv[j]
 		
 	i = 0
-	for i in range(0,201):
-		if i == 100:
+	for i in range(0,nf):
+		if i == ((nf-1)/2):
 			for j in range(0,n):
 				c[i] = (v_cp[j]+v_cp[j])*normv[j]
 			c[i] = c[i]/(2*T)
 		else:
 			for k in range(0,n):
-				a = -3.142*2*t[k]*3.142/T
+				a = -(i-((nf-1)/2))*2*t[k]*3.142/T
 				fhg = cmath.exp(a)
 				c[i] = (dels[(k+1)%n]+dels[k])*fhg
-			c[i] = c[i]*T/math.pow(3.142*(i-100)*2,2)
-	for i in range(0,201):
+			c[i] = c[i]*T/math.pow(3.142*(i-((nf-1)/2))*2,2)
+	for i in range(0,nf):
 		nci = math.hypot(c[i].real,c[i].imag)
-		nc1 = math.hypot(c[101].real,c[101].imag)
+		nc1 = math.hypot(c[((nf-1)/2)+1].real,c[((nf-1)/2)].imag)
 		phin = math.atan2(c[i].imag,c[i].real)
 		phi1 = math.atan2(c[1].imag,c[1].real)
 		phi2 = math.atan2(c[1].imag,c[2].real)
-		a = (phin+(1-i-100)*phi2-(2-i-100)*phi1)
+		a = (phin+(1-i-((nf-1)/2))*phi2-(2-i-((nf-1)/2))*phi1)
 		x[i] = (nci/nc1)*cmath.exp(1j*a)
-	ncn1 = nc1 = math.hypot(c[99].real,c[99].imag)
+	ncn1 = math.hypot(c[((nf-1)/2)-1].real,c[((nf-1)/2)-1].imag)
 	fMa = ncn1+nc1;
 	fMi = math.fabs(ncn1-nc1)
-
+	
 	return (x.real,fMa,fMi)
 
 def a2_8(points_xy,n):
@@ -128,7 +129,7 @@ def a2_8(points_xy,n):
 
 
 if __name__ == '__main__':
-	with open('../room1') as f:
+	with open('../room_test') as f:
 		for line in f:
 			points = [] ##It is a 2d array
 			if line[0] != 'H':
@@ -144,4 +145,4 @@ if __name__ == '__main__':
 					points.append([x,y])
 				
 
-				print len(a2_5(points,len(points)));
+				print (a2_5(points,len(points)));
